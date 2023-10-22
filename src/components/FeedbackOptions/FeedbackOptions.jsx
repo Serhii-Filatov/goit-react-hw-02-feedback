@@ -1,5 +1,3 @@
-import css from './FeedbackOption.module.css';
-
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <div>
