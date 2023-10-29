@@ -14,6 +14,7 @@ export class App extends React.Component {
 
   feedback = option => {
     this.setState(prevState => {
+      console.log('prevState', prevState);
       return { [option]: prevState[option] + 1 };
     });
   };
